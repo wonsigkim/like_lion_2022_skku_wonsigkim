@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>ONCE</title>
+  <style>
+    body{margin:0px;
+      background-color: #000000;
+      font-family: helvetica;}
+
+    img{padding:20px;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;}
+
+    p{font-size: 20px;
+      color: #ffffff;
+      padding-bottom: 5px;
+      text-align: center;
+      overflow: hidden;
+      width: max-content;
+      height:20px;
+
+
+      }
+
+      .motto{align-items: center;
+              white-space: nowrap;
+              margin:0px;
+              overflow-x: hidden;
+
+              animation-name: move_text;
+              animation-duration: 13s;
+              animation-delay: 1s;
+              animation-timing-function: linear;
+              animation-iteration-count: infinite;
+              animation-fill-mode:both;
+              animation-direction: alternate;
+            }
+
+      @keyframes move_text {
+            0%{color: #ffffff; margin-inline-start:100%;}
+            25%{color: #000000; margin-inline-start:50%;}
+            50%{color: #ffffff; margin-inline-start:0%;}
+            75%{color: #000000; margin-inline-start:-50%;}
+            100%{color: #ffffff; margin-inline-start:-100%;}
+
+
+
+      }
+
+      .square{
+
+              height:10px;
+              width:auto;
+              background-image: url(warning.png);
+              background-size: 10%;
+              background-repeat:repeat-x;
+              border-top: 1px solid gray;
+              border-bottom:1px solid gray;
+              margin-bottom: 10px;
+              margin-top: 10px;
+      }
+
+      .square-1{
+
+              height:10px;
+              width:auto;
+              background-image: url(warning-1.png);
+              background-size: 10%;
+              background-repeat:repeat-x;
+              border-top: 1px solid gray;
+              border-bottom:1px solid gray;
+              margin-bottom: 10px;
+              margin-top: 10px;
+      }
+  </style>
+
+  </head>
+
+  <body>
+
+    <img src="logoforme-1.png" width="200px">
+
+    <div class="square"></div>
+
+      <p class="motto">
+        ------&nbsp;! &nbsp;Do anything what you want to do, &nbsp; cause life is once &nbsp;!&nbsp;&nbsp;------&nbsp;
+        ! &nbsp;Do anything what you want to do, &nbsp; cause life is once &nbsp;!&nbsp;&nbsp;------&nbsp;
+        ! &nbsp;Do anything what you want to do, &nbsp; cause life is once &nbsp;!&nbsp;&nbsp;------&nbsp;
+
+      </p>
+
+    <div class="square-1"></div>
+
+  </body>
+</html>
