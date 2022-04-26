@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import random
-from xxlimited import foo
 
 food = ["된장찌개","피자","제육볶음","햄버거","마라탕"]
 information = {"고향":"일산","좋아하는 것":"운동","좋아하는 음식":"햄버거"}
