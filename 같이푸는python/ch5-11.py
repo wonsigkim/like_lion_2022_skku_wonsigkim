@@ -30,7 +30,6 @@ smtp.send_message(message)
 smtp.quit()
 
 
-
 #add_attachment = 다르것이 첨부되어있다
 #일반적인 text만 들어가 있는 경우 plain text type
 #사진등 다른 항목이 포함될 경우 Mixed type

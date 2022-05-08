@@ -29,6 +29,9 @@ smtp.login("charles9804@likelion.org","mnis1=f(x)")
 smtp.send_message(message)
 smtp.quit()
 
+#정규 표현식//^[a-zA-Z0-9.+_=]+@[a-zA-z0-9]+\.[a-zA-Z]{2,3}
+#{2,3}=최소 2회 최대3회 반복된다.
+
 
 
 #add_attachment = 다르것이 첨부되어있다
