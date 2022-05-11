@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="2강.css">
+</head>
+<!--<body>
+    <div class="AlertBox" id="AlertBox1">
+        <p>아이디를 입력하세요</p>
+        <button onclick="none1();">닫기</button>
+
+
+    </div>
+    <div class="AlertBox" id="AlertBox2">
+        <p>비밀번호를 입력하세요</p>
+        <button onclick="none2();">닫기</button>
+
+
+    </div>
+     <button onclick="Block1()">버튼</button>
+     <button onclick="Block2()">버튼</button>
+    
+
+    <script>
+    
+    function Block1(){
+        document.getElementById('AlertBox1').style.display = 'block';
+    }
+    function Block2(){
+        document.getElementById('AlertBox2').style.display = 'block';
+    }
+    function none1(){
+        document.getElementById('AlertBox1').style.display = 'none';
+    }
+    function none2(){
+        document.getElementById('AlertBox2').style.display = 'none';
+    }
+    
+
+    </script>
+</body>-->
+<body>
+    <div class="AlertBox" id="AlertBox">
+        <p id="title">아이디를 입력하세요</p>
+        <button id="close">x</button>
+    </div>
+
+    <button onclick="openAlert1()">버튼1</button>
+    <button onclick="openAlert2()">버튼2</button>
+
+
+
+</body>
+
+<script>
+
+    function openAlert1(){
+        document.getElementById('title').innerHTML = '아이디를 입력해주세요';
+        document.getElementById('AlertBox').style.display = 'block';
+
+    }
+    function openAlert2(){
+        document.getElementById('title').innerHTML = '비밀번호를 입력하세요';
+        document.getElementById('AlertBox').style.display = 'block';
+
+    }
+
+    document.getElementById('close').addEventListener('click',function(){
+
+document.getElementById('AlertBox').style.display = 'none'
+})
+</script>
+</html>
